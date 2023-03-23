@@ -1,6 +1,7 @@
 #include <iostream>
 #include <bits/stdc++.h>
 #define ll long long
+#define ull unsigned long long int
 using namespace std;
 void precal()
 {
@@ -8,12 +9,13 @@ void precal()
 void solve()
 {
 
-    int batti[4];
-    map<int, int> meraMap;
+    string batti;
+    cin >> batti;
+    map<char, int> meraMap;
     for (int i = 0; i < 4; i++)
     {
 
-        cin >> batti[i];
+        // cin >> batti[i];
         meraMap[batti[i]]++;
     }
     if (meraMap.size() == 4 || meraMap.size() == 3)
