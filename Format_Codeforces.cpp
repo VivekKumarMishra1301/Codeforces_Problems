@@ -18,7 +18,7 @@ int main()
     cout << setprecision(10);
     precal();
     int t = 1;
-    // cin>>t;
+    cin>>t;
     for (int i = 1; i <= t; i++)
     {
         solve();
